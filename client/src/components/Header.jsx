@@ -63,7 +63,7 @@ export default function Header({ activeTab, setActiveTab, onOpenSubmitModal, sta
           <div className="flex items-center space-x-3">
             <div className="hidden lg:flex items-center space-x-2 text-xs text-slate-400 bg-slate-900/90 px-3 py-1.5 rounded-lg border border-slate-800 font-mono">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-              <span>ID: Haridwar Team 58</span>
+              <span>ID: AZISTDD368</span>
             </div>
 
             <button

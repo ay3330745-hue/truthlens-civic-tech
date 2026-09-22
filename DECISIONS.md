@@ -2,7 +2,7 @@
 
 **Track:** Track 2: Real-World AI Products  
 **Brief:** TruthLens (Civic Tech)  
-**Hackathon ID:** `Haridwar Team 58`  
+**Hackathon ID:** `AZISTDD368` (Haridwar Team 58)  
 **Team Members:** Arjun Yadav & Dheeraj Kumar Sharma  
 
 ---

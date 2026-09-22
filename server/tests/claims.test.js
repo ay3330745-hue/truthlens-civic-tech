@@ -41,13 +41,13 @@ describe('TruthLens REST API Integration Tests', () => {
     const res = await request(app).get('/api/health');
     expect(res.statusCode).toEqual(200);
     expect(res.body.status).toEqual('ok');
-    expect(res.body.hackathonId).toEqual('Haridwar Team 58');
+    expect(res.body.hackathonId).toEqual('AZISTDD368');
   });
 
   test('GET /api/decisions returns decision point metadata', async () => {
     const res = await request(app).get('/api/decisions');
     expect(res.statusCode).toEqual(200);
-    expect(res.body.hackathonId).toEqual('Haridwar Team 58');
+    expect(res.body.hackathonId).toEqual('AZISTDD368');
     expect(res.body.decisions.DP1).toBeDefined();
     expect(res.body.decisions.DP2).toBeDefined();
     expect(res.body.decisions.DP3).toBeDefined();
