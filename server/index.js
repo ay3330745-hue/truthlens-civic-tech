@@ -14,10 +14,10 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// API Routes
-app.use('/api/claims', claimsRoutes);
-app.use('/api/decisions', decisionsRoutes);
-app.use('/api/health', healthRoutes);
+// API Routes (Supports both standalone server and Vercel serverless functions)
+app.use(['/api/claims', '/claims'], claimsRoutes);
+app.use(['/api/decisions', '/decisions'], decisionsRoutes);
+app.use(['/api/health', '/health'], healthRoutes);
 
 // Serve static frontend build files in production if available
 const clientBuildPath = path.join(__dirname, '../client/dist');
