@@ -12,13 +12,8 @@ class ClaimsStore {
 
   init() {
     try {
-      if (fs.existsSync(SEED_FILE)) {
-        const raw = fs.readFileSync(SEED_FILE, 'utf-8');
-        const parsed = JSON.parse(raw);
-        this.claims = parsed.map((item) => this.processClaim(item));
-      } else {
-        this.claims = [];
-      }
+      const parsed = require('./seedData.json');
+      this.claims = parsed.map((item) => this.processClaim(item));
     } catch (err) {
       console.error('Failed to load seed data:', err);
       this.claims = [];
