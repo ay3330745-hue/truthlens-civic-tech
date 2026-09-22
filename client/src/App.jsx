@@ -165,7 +165,7 @@ export default function App() {
           TruthLens • Built for Code2Career Hackathon (Track 2: Real-World AI Products)
         </p>
         <p className="font-mono text-slate-600">
-          Team: Arjun Yadav | ID: Haridwar Team 58 • Neutral By Design Civic Tech
+          Team: Arjun Yadav & Dheeraj Kumar Sharma | ID: Haridwar Team 58 • Neutral By Design Civic Tech
         </p>
       </footer>
 

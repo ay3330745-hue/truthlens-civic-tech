@@ -3,7 +3,7 @@
 > **Track Name:** Track 2: Real-World AI Products  
 > **Brief Selected:** TruthLens (Civic Tech)  
 > **Hackathon Team ID:** `Haridwar Team 58`  
-> **Author:** Arjun Yadav  
+> **Team Members:** Arjun Yadav & Dheeraj Kumar Sharma  
 > **Standard API Status:** Implemented (`/api/claims`, `/api/claims/:id`, `/api/claims/:id/review`, `/api/decisions`, `/api/health`)
 
 ---
@@ -17,6 +17,7 @@
 ## 🏆 Hackathon ID & Compliance
 
 - **Hackathon Team ID:** `Haridwar Team 58`
+- **Team Members:** Arjun Yadav & Dheeraj Kumar Sharma
 - **Track Name:** Track 2: Real-World AI Products
 - **Authentication:** **No login/signup required** per brief guidelines. Graders and browser agents have full unrestricted access to submit claims, triage risk flags, and review content.
 

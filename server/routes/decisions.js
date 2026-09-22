@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
     track: 'Track 2: Real-World AI Products',
     brief: 'TruthLens (Civic Tech)',
     hackathonId: 'Haridwar Team 58',
-    author: 'Arjun Yadav',
+    authors: ['Arjun Yadav', 'Dheeraj Kumar Sharma'],
     decisions: {
       DP1: {
         title: 'Feed Order',
