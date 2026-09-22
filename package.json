@@ -1,0 +1,24 @@
+{
+  "name": "truthlens-misinformation-triage",
+  "version": "1.0.0",
+  "description": "TruthLens - A Misinformation Triage Platform for Civic Tech (Track 2: Real-World AI Products)",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "node server/index.js",
+    "client": "npm --prefix client run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "npm --prefix server test",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": [
+    "truthlens",
+    "civic-tech",
+    "misinformation",
+    "triage",
+    "fact-check",
+    "hackathon"
+  ],
+  "author": "Arjun Yadav (Haridwar Team 58)",
+  "license": "MIT"
+}
