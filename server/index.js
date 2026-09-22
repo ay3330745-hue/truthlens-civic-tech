@@ -33,7 +33,7 @@ app.get('*', (req, res, next) => {
   }
   return res.json({
     message: 'TruthLens API Backend is running.',
-    hackathonId: 'AZISTDD368',
+    hackathonId: 'AZIS-TDD368',
     docs: '/api/health'
   });
 });
@@ -42,7 +42,7 @@ if (process.env.NODE_ENV !== 'test') {
   app.listen(PORT, () => {
     console.log(`=======================================================`);
     console.log(`🚀 TruthLens API Server running on port ${PORT}`);
-    console.log(`📍 Hackathon ID: AZISTDD368`);
+    console.log(`📍 Hackathon ID: AZIS-TDD368`);
     console.log(`🔗 API Base: http://localhost:${PORT}/api/claims`);
     console.log(`=======================================================`);
   });

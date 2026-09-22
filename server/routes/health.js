@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
     status: 'ok',
     service: 'TruthLens Misinformation Triage API',
     timestamp: new Date().toISOString(),
-    hackathonId: 'AZISTDD368'
+    hackathonId: 'AZIS-TDD368'
   });
 });
 

@@ -2,7 +2,7 @@
 
 > **Track Name:** Track 2: Real-World AI Products  
 > **Brief Selected:** TruthLens (Civic Tech)  
-> **Hackathon Team ID:** `AZISTDD368` (Haridwar Team 58)  
+> **Hackathon Team ID:** `AZIS-TDD368` (Haridwar Team 58)  
 > **Team Members:** Arjun Yadav & Dheeraj Kumar Sharma  
 > **Standard API Status:** Implemented (`/api/claims`, `/api/claims/:id`, `/api/claims/:id/review`, `/api/decisions`, `/api/health`)
 
@@ -16,7 +16,7 @@
 
 ## 🏆 Hackathon ID & Compliance
 
-- **Hackathon Team ID:** `AZISTDD368`
+- **Hackathon Team ID:** `AZIS-TDD368`
 - **Team Name:** Haridwar Team 58
 - **Team Members:** Arjun Yadav & Dheeraj Kumar Sharma
 - **Track Name:** Track 2: Real-World AI Products
@@ -102,7 +102,7 @@ npm test
 
 | Endpoint | Method | Description | Sample Query / Body |
 | :--- | :--- | :--- | :--- |
-| `/api/health` | `GET` | Health check endpoint | Returns `{ status: "ok", hackathonId: "AZISTDD368" }` |
+| `/api/health` | `GET` | Health check endpoint | Returns `{ status: "ok", hackathonId: "AZIS-TDD368" }` |
 | `/api/decisions` | `GET` | Fetch DP1, DP2, DP3 choices | Returns structured decision point metadata |
 | `/api/claims` | `GET` | Fetch public feed claims | Query: `?category=Politics&status=Unverified&sort=risk` |
 | `/api/claims` | `POST` | Submit new viral claim | Body: `{ text, platform, category, sourceLink }` |
